@@ -1,13 +1,13 @@
-# sails-hook-sockets
+# blue-prod-hook-sockets
 
-Implements Socket.io support in Sails.
+Implements Socket.io support in blue-prod.
 
-> This is a core hook in the [Sails.js framework](http://sailsjs.com).  You can override or disable it using your `.sailsrc` file or environment variables.  See [Concepts > Configuration](http://sailsjs.com/documentation/concepts/configuration) for more information.
+> This is a core hook in the [blue-prod framework](http://sailsjs.com).  You can override or disable it using your `.sailsrc` file or environment variables.  See [Concepts > Configuration](http://sailsjs.com/documentation/concepts/configuration) for more information.
 
 
 ## Help
 
-If you have further questions or are having trouble, click [here](http://sailsjs.com/support).
+If you have further questions or are having trouble, click [here](https://github.com/EMSA-TECHNOLOGY/blue-prod-hook-sockets/issues).
 
 #### What version of Sails is this for?
 
@@ -39,16 +39,14 @@ Click [here](./package.json) to check out the semver range for this hook's Socke
 > For reproducibility, we always pin 3rd party dependencies to a specific version, using a consistent verified version string when possible (see [kit](http://github.com/mikermcneil/kit)).
 
 
-#### Bugs &nbsp; [![NPM version](https://badge.fury.io/js/sails-hook-sockets.svg)](http://npmjs.com/package/sails-hook-sockets)
+#### Bugs &nbsp; [![NPM version](https://badge.fury.io/js/blue-prod-hook-sockets.svg)](http://npmjs.com/package/blue-prod-hook-sockets)
 
-To report a bug, [click here](http://sailsjs.com/bugs).
+To report a bug, [click here](https://github.com/EMSA-TECHNOLOGY/blue-prod-hook-sockets/issues).
 
 
 ## Contributing
 
-Please observe the guidelines and conventions laid out in the [Sails project contribution guide](http://sailsjs.com/documentation/contributing) when opening issues or submitting pull requests.
-
-[![NPM](https://nodei.co/npm/sails-hook-sockets.png?downloads=true)](http://npmjs.com/package/sails-hook-sockets)
+[![NPM](https://nodei.co/npm/blue-prod-hook-sockets.png?downloads=true)](http://npmjs.com/package/blue-prod-hook-sockets)
 
 
 #### Running the tests
@@ -56,8 +54,8 @@ Please observe the guidelines and conventions laid out in the [Sails project con
 First, clone this repo, cd into it, and install dependencies:
 
 ```sh
-git clone https://github.com/balderdashy/sails-hook-sockets.git
-cd sails-hook-sockets
+git clone https://github.com/EMSA-TECHNOLOGY/blue-prod-hook-sockets.git
+cd blue-prod-hook-sockets
 npm install
 ```
 
@@ -85,5 +83,6 @@ node ./node_modules/mocha/bin/mocha -g 'without session'
 
 ## License
 
-The [Sails framework](http://sailsjs.com) is free and open-source under the [MIT License](http://sailsjs.com/license).
+The [blue-prod framework](https://github.com/EMSA-TECHNOLOGY/blue-prod) is free and open-source under the [MIT License](https://github.com/EMSA-TECHNOLOGY/blue-prod-hook-sockets/blob/master/LICENSE.md).
+
 

@@ -1,15 +1,16 @@
 {
-  "name": "sails-hook-sockets",
-  "version": "2.0.0",
-  "description": "Implements socket.io support in Sails",
+  "name": "blue-prod-hook-sockets",
+  "version": "0.0.1",
+  "description": "Implements socket.io support in blue-prod",
   "keywords": [
     "socket.io",
     "sails.js",
     "sails-hook",
-    "hook"
+    "hook",
+    "blue-prod"
   ],
   "dependencies": {
-    "@sailshq/lodash": "^3.10.2",
+    "blue-prod-lodash": "0.0.1",
     "async": "2.0.1",
     "flaverr": "^1.0.0",
     "machinepack-redis": "^2.0.3",
@@ -36,11 +37,15 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/balderdashy/sails-hook-sockets.git"
+    "url": "git://github.com/EMSA-TECHNOLOGY/blue-prod-hook-sockets.git"
   },
+  "bugs": {
+    "url": "https://github.com/EMSA-TECHNOLOGY/blue-prod-hook-sockets/issues"
+  },
+  "homepage": "https://github.com/EMSA-TECHNOLOGY/blue-prod-hook-sockets",
   "sails": {
     "isHook": true
   },
-  "author": "Mike McNeil",
+  "author": "Vu Do",
   "license": "MIT"
 }
